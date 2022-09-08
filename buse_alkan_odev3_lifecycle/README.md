@@ -5,7 +5,7 @@
 <img  height="400" width="250" src="https://raw.githubusercontent.com/FMSSBilisimAndroid/buse_alkan_odev3/main/buse_alkan_odev3_lifecycle/screens/lifecycleLog.png"/>
 
 # Fragment
-<p>Fragment, Activity üzerinde çalışan bir yapıdır. Bir sayfa üzerinde birden fazla ekran görüntüleyceksek Fragmentlar tercih edilmektedir.
+<p>Fragment, Activity üzerinde çalışan bir yapıdır. Bir sayfa üzerinde birden fazla ekran görüntülenecek ise Fragmentlar tercih edilmektedir.
 
 # Fragment Lifecycle
 <img  height="400" width="250" src="https://raw.githubusercontent.com/FMSSBilisimAndroid/buse_alkan_odev3/buse_alkan_odev3_lifecycle/screens/fragment-view-lifecycle.png"/>
