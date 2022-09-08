@@ -36,7 +36,7 @@ oluşan view burada kullanılır.
 <li><b>onDestroy():</b>Fragment durumunun son temizliğini yapmak için çağırılır.</li>
   
 <li><b>onDetach():</b>Fragment bulunduğu Activity'den ayrıldığında çağrılır.</li>
-<br/><br/><br/>
+<br/><br/>
 <p><b>Telefonun yönünün değiştirilmesi durumunda değerler tasarım aşamasında verilen değere geri dönüyor. Nedeni Android‘in kullanıcıdan alınan değerleri tutup performansa olumsuz etkisi olmaması için statik değer olduğu farzedilen değerleri hafızaya almamasıdır. Bu sorunu çözmenin bazı yolları;</b></p>
 
 <li>AndroidManifest.xml dosyasında kullanılan Activity'e android:configChanges="orientation|screenSize|keyboardHidden" kod bloğunu eklemektir. Fakat önerilen bir çözüm yolu değildir.</li>
@@ -44,7 +44,7 @@ oluşan view burada kullanılır.
 <li>Telefonun yönü değiştiğinde sırası ile onSaveInstanceState ve onRestoreInstanceState olayları tetikleniyor.</li>
 
 <br/><br/>
-<li>onSaveInstanceState metodu uygulamanın ekran rotasyonu değiştirildiğinde veya home butonuna basıldığında saklanmasını istediğimiz verileri key/value şeklinde outState içerisinde saklamamızı sağlar.</li>
+<li><b>onSaveInstanceState</b> metodu uygulamanın ekran rotasyonu değiştirildiğinde veya home butonuna basıldığında saklanmasını istediğimiz verileri key/value şeklinde outState içerisinde saklamamızı sağlar.</li>
 ```
 override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
@@ -55,7 +55,7 @@ override fun onSaveInstanceState(outState: Bundle) {
         outState.putString("name", nameText)
     }
  ```
-<li>onRestoreInstanceState metodu içinde de onSaveInstanceState metodunda kaydedilen değerler alınarak ilgili kontrollere atanır.</li>
+<li><b>onRestoreInstanceState</b> metodu içinde de onSaveInstanceState metodunda kaydedilen değerler alınarak ilgili kontrollere atanır.</li>
  
   ```
  override fun onViewStateRestored(savedInstanceState: Bundle?) {
