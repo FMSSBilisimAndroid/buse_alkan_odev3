@@ -45,6 +45,7 @@ oluşan view burada kullanılır.
 
 <br/><br/>
 <li><b>onSaveInstanceState</b> metodu uygulamanın ekran rotasyonu değiştirildiğinde veya home butonuna basıldığında saklanmasını istediğimiz verileri key/value şeklinde outState içerisinde saklamamızı sağlar.</li>
+
 ```
 override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
@@ -54,10 +55,11 @@ override fun onSaveInstanceState(outState: Bundle) {
         val nameText = fragmentHomeBinding.txtName.text.toString()
         outState.putString("name", nameText)
     }
- ```
+```
+ 
 <li><b>onRestoreInstanceState</b> metodu içinde de onSaveInstanceState metodunda kaydedilen değerler alınarak ilgili kontrollere atanır.</li>
  
-  ```
+```
  override fun onViewStateRestored(savedInstanceState: Bundle?) {
         super.onViewStateRestored(savedInstanceState)
 
