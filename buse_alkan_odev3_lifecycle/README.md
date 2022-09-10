@@ -71,6 +71,12 @@ override fun onSaveInstanceState(outState: Bundle) {
         }
     }
 ```
+
+# Libraries and Tools 
+<li><a href="https://developer.android.com/guide/fragments">Fragments</a></li> 
+<li><a href="https://developer.android.com/guide/fragments/lifecycle">Fragment Lifecycle</a></li>
+<li><a href="https://developer.android.com/guide/fragments/saving-state">Saving state with fragments </a></li>
+
   
 # License
 Copyright 2022 Buse ALKAN..
