@@ -1,5 +1,5 @@
 # AppNavigationApp
-<img  height="400" width="250" src="https://raw.githubusercontent.com/FMSSBilisimAndroid/buse_alkan_odev3/main/buse_alkan_odev3_appNavigation/screens/appNavigation.gif"/>
+<img  height="500" width="250" src="https://raw.githubusercontent.com/FMSSBilisimAndroid/buse_alkan_odev3/main/buse_alkan_odev3_appNavigation/screens/appNavigation.gif"/>
 
 # Libraries and Tools 
 <li><a href="https://developer.android.com/guide/fragments">Fragments</a></li> 
